@@ -1,0 +1,28 @@
+nav.navbar,
+.navbar-default {
+  background-color: black !important;
+
+}
+
+
+.nav-link,
+.navbar-brand {
+  padding-right: 25px !important;
+  color: silver !important;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+
+/*
+.navbar-brand {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: silver !important;
+} */
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
