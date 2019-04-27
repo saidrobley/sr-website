@@ -1,7 +1,8 @@
 nav.navbar,
 .navbar-default {
   background-color: black !important;
-
+  display: flex;
+  align-content: center;
 }
 
 

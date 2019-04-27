@@ -10,16 +10,16 @@ const Navigation = props => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto" />
         <Nav color="default-color">
-          <Nav.Link eventKey={1} href="#About">
+          <Nav.Link eventKey={1} href="#Home">
             Home
           </Nav.Link>
-          <Nav.Link eventKey={2} href="#Services">
+          <Nav.Link eventKey={2} href="#About">
             About
           </Nav.Link>
           <Nav.Link eventKey={3} href="#Portfolio">
             Portfolio
           </Nav.Link>
-          <Nav.Link eventKey={4} href="#memes">
+          <Nav.Link eventKey={4} href="#Contact">
             Contact
           </Nav.Link>
         </Nav>

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  color: #fff;
+  line-height: 1.6;
+  font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
+}
+
+.headerImage {
+  /*background-image: url("../img/hero.png"); */
+  background-color: #252933;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 30vh;
+
+}
+
+.hero p {
+  color: silver;
+  padding: 0;
+  margin: 0;
+  font-size: 32pt;
+  line-height: 36pt;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+span {
+  color: #E31B6D;
+}
+
+
+.btn-info {
+  display: inline-block;
+  margin-top: 5vh;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  /*padding: 12px 50px 12px 20px; */
+  font-weight: bold;
+  background-color: #252933;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 16pt;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.btn-info:hover {
+  background-color: #04C2C9;
+  color: #fff;
+  /*transform: scale(1.2); */
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+}
